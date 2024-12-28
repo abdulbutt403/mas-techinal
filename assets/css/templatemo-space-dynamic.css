@@ -944,7 +944,7 @@ About Us Style
 */
 
 #about {
-  margin-top: 120px;
+  margin-top: 20px;
 }
 
 .about-us {
@@ -1023,15 +1023,15 @@ Services Style
 }
 
 .our-services .first-bar span {
-  left: 69%;
+  left: 100%;
 }
 
 .our-services .second-bar span {
-  left: 81%;
+  left: 100%;
 }
 
 .our-services .third-bar span {
-  left: 88%;
+  left: 100%;
 }
 
 .our-services .progress-skill-bar h4 {
@@ -1061,15 +1061,15 @@ Services Style
 }
 
 .our-services .first-bar .filled-bar {
-  width: 71%;
+  width: 100%;
 }
 
 .our-services .second-bar .filled-bar {
-  width: 83%;
+  width: 94%;
 }
 
 .our-services .third-bar .filled-bar {
-  width: 90%;
+  width: 98%;
 }
 
 
@@ -1111,6 +1111,7 @@ Portfolio
   background: linear-gradient(105deg, rgba(255,77,30,1) 0%, rgba(255,44,109,1) 100%);
   padding: 30px;
   border-radius: 20px;
+  margin-left: 10%;
   text-align: center;
   opacity: 0;
   top: 0;
@@ -1151,14 +1152,15 @@ Portfolio
   z-index: 3;
   background-color: #fff;
   text-align: center;
-  padding: 50px;
+  padding: 0px;
   border-radius: 20px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
   transition: all 0.5s;
+  overflow: hidden;
 }
 
 .our-portfolio .showed-content img {
-  max-width: 100px;
+  max-width: 100%;
 }
 
 
@@ -1172,10 +1174,12 @@ Blog
   position: relative;
   margin-top: 80px;
   padding-top: 120px;
+  padding-bottom: 200px;
 }
 
 .our-blog .section-heading h2 {
-  margin-right: 180px;
+  margin-right: 0px;
+  margin-bottom: 20px;
 }
 
 .our-blog .top-dec {
